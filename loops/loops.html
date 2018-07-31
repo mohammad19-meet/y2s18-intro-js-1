@@ -19,6 +19,19 @@ var randomInt = getRandomInt(1, 100);
 
 // your code goes under here
 
+while(guess!= randomInt){
+	var guess = prompt("Guess a number between 1 and 100")
+	if (guess>randomInt) {
+	alert("too high!")
+}
+else if (guess<randomInt) {
+	alert("too low")
+} else {
+	alert("you won!")
+}
+}
+
+
     </script>
 </body>
 
