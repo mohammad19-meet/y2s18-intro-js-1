@@ -19,15 +19,20 @@ function isLetter(char) {
 
 
 var written = prompt("write something please")
-function isPalindrome(char){
-	
+
+
+
+function isPalindrome(str){
+	var reverse = str.split('').reverse().join("");
+	if (reverse === str){
+		alert("correct")
+	}else{
+		alert("Wrong")
+	}
+
 }
 
-for{
-
-}
-
-
+isPalindrome(written)
 
 
     </script>
